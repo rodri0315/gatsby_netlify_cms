@@ -16,6 +16,7 @@ const Home = (props) => {
           name="description"
           content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
         />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
       </Helmet>
       <div className="intro pb-4">
         <div className="container">
