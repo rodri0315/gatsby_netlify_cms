@@ -16,15 +16,11 @@ const Home = (props) => {
           name="description"
           content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
         />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
       </Helmet>
       <div className="intro pb-4">
         <div className="container">
-          <h1>Serif - Gatsby Small Business Theme.</h1>
-          <p>
-            Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This
-            is a beautiful and artfully designed starting theme.
-          </p>
+          <h1>Superior Products At Fair Prices.</h1>
+          <p>GV Roofing Renovation LLC has over 17 years of knowledge experience in the roofing.</p>
         </div>
       </div>
 

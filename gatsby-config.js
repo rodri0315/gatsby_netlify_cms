@@ -5,8 +5,8 @@ module.exports = {
     title: 'Gatsby Serif',
     description: 'my theme',
     contact: {
-      phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+      phone: '919 433 7075',
+      email: 'gvroofingrenovation@gmail.com',
     },
     menuLinks: [
       {
@@ -20,6 +20,10 @@ module.exports = {
       {
         name: 'Testimonials',
         link: '/testimonials',
+      },
+      {
+        name: 'Work',
+        link: '/work',
       },
       {
         name: 'Contact',
@@ -56,7 +60,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: guid ? guid : 'UA-XXX-1',
+        trackingId: guid || 'UA-XXX-1',
         // Puts tracking script in the head instead of the body
         head: false,
       },
