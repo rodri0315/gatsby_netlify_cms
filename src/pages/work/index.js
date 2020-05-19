@@ -20,7 +20,7 @@ const Work = (props) => {
 
       <div className="container pb-6">
         <div className="row">
-          {work.map(edge => (
+          {/*work.map(edge => (
             <div key={edge.node.frontmatter.path} className="col-12 col-md-6 mb-1">
               <div className="work">
                 <div className="work-meta">
@@ -34,7 +34,8 @@ const Work = (props) => {
                 />
               </div>
             </div>
-          ))}
+          ))*/}
+          <h2>Work examples coming soon.</h2>
         </div>
       </div>
     </Layout>

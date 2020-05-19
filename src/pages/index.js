@@ -20,7 +20,7 @@ const Home = (props) => {
       <div className="intro pb-4">
         <div className="container">
           <h1>Superior Products At Fair Prices.</h1>
-          <p>GV Roofing Renovation LLC has over 17 years of knowledge experience in the roofing.</p>
+          <p class="text-lg-left">GV Roofing Renovation LLC has over 17 years of knowledge experience in the roofing.</p>
         </div>
       </div>
 
@@ -28,23 +28,46 @@ const Home = (props) => {
         <Call button />
       </div>
 
-      <div className="container pt-8 pt-md-10">
+      <div className="container mt-6 pt-8 pt-md-11">
         <div className="row justify-content-start">
           <div className="col-12">
             <h2 className="title-3 text-dark mb-3">Our Services</h2>
           </div>
-          {markdown.map(edge => (
-            <div key={edge.node.frontmatter.path} className="col-12 col-md-4 mb-1">
+            <div className="col-12 col-md-4 mb-1">
               <div className="card service service-teaser">
                 <div className="card-content">
-                  <h2>
-                    <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
-                  </h2>
-                  <p>{edge.node.excerpt}</p>
+                <h2>Free Estimates</h2>
                 </div>
               </div>
             </div>
-          ))}
+            <div className="col-12 col-md-4 mb-1">
+              <div className="card service service-teaser">
+                <div className="card-content">
+                <h2>Residential roofing</h2>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-4 mb-1">
+              <div className="card service service-teaser">
+                <div className="card-content">
+                <h2>New Roof Installation</h2>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-4 mb-1">
+              <div className="card service service-teaser">
+                <div className="card-content">
+                <h2>Roof Repairs</h2>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-4 mb-1">
+              <div className="card service service-teaser">
+                <div className="card-content">
+                <h2>General Roof Repairs</h2>
+                </div>
+              </div>
+            </div>
           <div className="col-12 text-center">
             <Link className="button button-primary mt-2" to="/services">
               View All Services

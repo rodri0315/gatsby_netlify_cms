@@ -4,13 +4,13 @@
     "image": "/features/building-broken-roof.svg"
   },
   {
-    "title": "Insured",
-    "description": "All members of our team are certified accountants.",
-    "image": "/features/noun_The Process_1885341.svg"
+    "title": "Customer Satisfaction",
+    "description": "All customers are happy with our work.",
+    "image": "/features/stars.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "/features/noun_3d modeling_1885342.svg"
+    "title": "Experience",
+    "description": "We have over 17 years of experience",
+    "image": "/features/professions-and-jobs.svg"
   }
 ]

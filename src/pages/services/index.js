@@ -19,19 +19,15 @@ const Services = (props) => {
       </div>
 
       <div className="container pb-6">
-        <div className="row">
-          {services.map(edge => (
-            <div key={edge.node.frontmatter.path} className="col-12 col-md-4 mb-1">
-              <div className="card service service-teaser">
-                <div className="card-content">
-                  <h2>
-                    <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
-                  </h2>
-                  <p>{edge.node.excerpt}</p>
-                </div>
-              </div>
-            </div>
-          ))}
+        <div className="column">
+          <h2>We offer free estimates to all our clients</h2>
+          <h3>We are your trusted choice for:</h3>
+          <h5>Residential roofing, storm and hail damage repair.</h5>
+          <h5>New roof installation</h5>
+          <h5>Roof repairs</h5>
+          <h5>Partial roof installation</h5>
+          <h5>General roof repair</h5>
+          <h5>and more!</h5>
         </div>
       </div>
     </Layout>
