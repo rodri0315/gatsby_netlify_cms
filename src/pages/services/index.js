@@ -18,8 +18,8 @@ const Services = (props) => {
         </div>
       </div>
 
-      <div className="container pb-6">
-        <div className="column">
+      <div className="container pb-6 services-info">
+        <div className="column white">
           <h2>We offer free estimates to all our clients</h2>
           <h3>We are your trusted choice for:</h3>
           <h5>Residential roofing, storm and hail damage repair.</h5>

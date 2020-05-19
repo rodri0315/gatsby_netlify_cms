@@ -1,11 +1,11 @@
 .page-home {
   background-image: url('../images/roofing-worker.png');
   background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 0px 40px;
+  background-size: 100%;
+  background-position: 0px 50px;
 
   @include media-breakpoint-up(sm) {
-    background-size: 90%;
+    background-size: 100%;
     background-position: 159px -40px;
   }
 

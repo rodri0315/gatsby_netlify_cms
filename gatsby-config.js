@@ -2,8 +2,8 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
-    description: 'my theme',
+    title: 'GVRoofingRenovation',
+    description: 'GV Roofing website',
     contact: {
       phone: '919 433 7075',
       email: 'gvroofingrenovation@gmail.com',

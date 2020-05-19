@@ -1,18 +1,32 @@
 .page-services {
-  background-image: url('../images/undraw_businesswoman_pc12.svg');
+  background-image: linear-gradient(rgba(59, 62, 63, 0.521),
+      rgba(75, 90, 94, 0.548)),
+    url('../images/roofing-ex.jpg');
   background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
+  background-size: 100%;
+  background-position: 0px 50px;
+
   @include media-breakpoint-up(sm) {
     background-size: 90%;
-    background-position: 159px -40px;
+    background-position: 0px 40px;
   }
+
   @include media-breakpoint-up(md) {
     background-size: 85%;
     background-position: 199px -80px;
   }
+
   @include media-breakpoint-up(lg) {
     background-size: 60%;
-    background-position: 100% -110px;
+    background-position: 100% 50px;
+    background-size: contain;
+  }
+}
+
+.services-info {
+  h2,
+  h3,
+  h5 {
+    color: $white
   }
 }

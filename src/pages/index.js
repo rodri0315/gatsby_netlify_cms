@@ -14,13 +14,13 @@ const Home = (props) => {
       <Helmet>
         <meta
           name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
+          content="Small Business Roofing Website"
         />
       </Helmet>
       <div className="intro pb-4">
         <div className="container">
-          <h1>Superior Products At Fair Prices.</h1>
-          <p class="text-lg-left">GV Roofing Renovation LLC has over 17 years of knowledge experience in the roofing.</p>
+          <h1 class="home-title">Superior Products At Fair Prices.</h1>
+          <p class="text-lg-left">GV Roofing Renovation LLC has over 17 years of knowledge and experience in the roofing business.</p>
         </div>
       </div>
 
