@@ -16,6 +16,7 @@
     "gatsby-plugin-react-helmet": "^3.3.1",
     "gatsby-plugin-sass": "^2.3.1",
     "gatsby-source-filesystem": "^2.3.1",
+    "gatsby-theme-gallery": "^1.0.2",
     "gatsby-transformer-json": "^2.4.1",
     "gatsby-transformer-remark": "^2.8.7",
     "netlify-cms": "^2.10.48",

@@ -32,6 +32,7 @@ module.exports = {
     'gatsby-transformer-json',
     'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',
+    'gatsby-theme-gallery',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
