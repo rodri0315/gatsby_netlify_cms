@@ -30,6 +30,7 @@ const Services = (props) => {
           <h5>and more!</h5>
         </div>
       </div>
+      
     </Layout>
   );
 };
@@ -52,5 +53,22 @@ export const query = graphql`
     }
   }
 `;
+
+// <div className="container pb-6">
+//   <div className="row">
+//     {services.map(edge => (
+//       <div key={edge.node.frontmatter.path} className="col-12 col-md-4 mb-1">
+//         <div className="card service service-teaser">
+//           <div className="card-content">
+//             <h2>
+//               <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
+//             </h2>
+//             <p>{edge.node.excerpt}</p>
+//           </div>
+//         </div>
+//       </div>
+//     ))}
+//   </div>
+// </div>
 
 export default Services;
