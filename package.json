@@ -23,7 +23,7 @@
     "netlify-cli": "^2.64.1",
     "netlify-cms": "^2.10.48",
     "netlify-cms-app": "^2.12.24",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1"
